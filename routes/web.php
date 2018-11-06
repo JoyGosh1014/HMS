@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('register', 'HomeController@register');
+Route::post('store', 'HomeController@store');
+
